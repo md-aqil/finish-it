@@ -1,17 +1,11 @@
 	@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400,500i,700');
 
 
-	.front-banner-box {
+    .front-banner-box  {
 			position: relative;
-			width: 100%;
-			height: 700px;
-
-		}
-		.front-banner-box  {
 			
 			width: 100%;
 			height: 100%;
-      
     
             background: #5399db;
             background: -webkit-linear-gradient(top right,#5399db,#5153d6);
@@ -581,7 +575,7 @@ body {
 	margin-top: 5px;
 }
 .footer {
-	background: #000629;
+	background: #527bd9;
 	color: #fff;
 	padding-top: 30px;
 }
@@ -678,7 +672,7 @@ body {
     content: '';
     height: 150px;
     width: 150px;
- background:rgba(0, 104, 254, 0.3);
+ /*background:rgba(0, 104, 254, 0.3);*/
     display: block;
     position: absolute;
     border-radius: 100px;
@@ -746,4 +740,7 @@ body {
 }
 .social-icons img{
       width: 100%;
+}
+.carousel-indicators li {
+  border-color: #999;
 }
