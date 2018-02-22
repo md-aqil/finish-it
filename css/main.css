@@ -744,3 +744,22 @@ body {
 .carousel-indicators li {
   border-color: #999;
 }
+
+@media (max-width: 767px) {
+  .hero-banner {
+    height:  1200px;
+  }
+.carousel-indicators {
+  margin-left: -28%;
+}
+.spacethis {
+     padding-top: 10px; 
+     padding-bottom: 10px; 
+}
+
+.sbox {
+    --size: 100px;
+   
+    padding: 20px;
+}
+}
